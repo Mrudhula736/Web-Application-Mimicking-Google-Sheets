@@ -1,0 +1,28 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.cell:focus {
+  outline: 2px solid #4caf50;
+}
